@@ -1,0 +1,44 @@
+body {
+    background-image: url(checklist3.webp);
+    background-size: cover;
+    background: linear-gradient(0,0,0,0.8);
+}
+
+.navi{
+    text-align: right;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border: transparent;
+    border-style: ridge;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descr{
+    color: rgb(2, 1, 1);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

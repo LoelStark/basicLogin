@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Register</title>
+</head>
+<body>
+
+<h1>Computer Lab Register</h1>
+<p class="descr">
+        What the tech register does is monitor the amount of people who normally use the lab computers<br>
+        This helps keep track of everyone who uses our systems across every faculty.
+        <br>
+        As you can probably imagine we may face dificulty when a system breaks and we're left trying to figure out who did what and why?<br>
+        Hence the system implemented to monitor that sort of thing and know who caused the error, when and how we can fix it.
+</p>
+
+<a href="/register">Register</a>
+<a href="/logout">Logout</a>
+
+<table border="1">
+<tr>
+    <th>Name</th>
+    <th>Student/Staff Number</th>
+    <th>Reason</th>
+</tr>
+
+{% for s in students %}
+<tr>
+    <td>{{ s.name }}</td>
+    <td>{{ s.number }}</td>
+    <td>{{ s.reason }}</td>
+</tr>
+{% endfor %}
+
+</table>
+
+</body>
+</html>
